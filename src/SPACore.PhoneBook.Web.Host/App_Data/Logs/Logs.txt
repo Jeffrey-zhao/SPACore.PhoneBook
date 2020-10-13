@@ -1,0 +1,488 @@
+DEBUG 2020-10-13 23:08:23,614 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-13 23:08:27,192 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-13 23:08:27,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, SPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookWebCoreModule, SPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookApplicationModule, SPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookCoreModule, SPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:27,211 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-13 23:08:27,729 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:08:27,729 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:08:27,729 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:08:27,729 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:08:28,035 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:08:28,577 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-13 23:08:28,682 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-13 23:08:28,717 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-13 23:08:28,737 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-10-13 23:08:28,762 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-13 23:08:28,790 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2020-10-13 23:08:28,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-10-13 23:08:28,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-13 23:08:28,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-13 23:08:28,827 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+FATAL 2020-10-13 23:08:40,414 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "PhoneBookDb_NG"。登录失败。
+用户 'JEFFREY-ZHAO\Jeffrey' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at SPACore.PhoneBook.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SPACore.PhoneBook.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule.PostInitialize() in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\PhoneBookEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:f5b86db7-dfda-4cc9-a008-96f09f57289a
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "PhoneBookDb_NG"。登录失败。
+用户 'JEFFREY-ZHAO\Jeffrey' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at SPACore.PhoneBook.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SPACore.PhoneBook.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule.PostInitialize() in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\PhoneBookEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:f5b86db7-dfda-4cc9-a008-96f09f57289a
+Error Number:4060,State:1,Class:11
+WARN  2020-10-13 23:08:40,414 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "PhoneBookDb_NG"。登录失败。
+用户 'JEFFREY-ZHAO\Jeffrey' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:f5b86db7-dfda-4cc9-a008-96f09f57289a
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "PhoneBookDb_NG"。登录失败。
+用户 'JEFFREY-ZHAO\Jeffrey' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:f5b86db7-dfda-4cc9-a008-96f09f57289a
+Error Number:4060,State:1,Class:11
+FATAL 2020-10-13 23:08:40,446 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "PhoneBookDb_NG"。登录失败。
+用户 'JEFFREY-ZHAO\Jeffrey' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at SPACore.PhoneBook.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SPACore.PhoneBook.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule.PostInitialize() in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.EntityFrameworkCore\EntityFrameworkCore\PhoneBookEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at SPACore.PhoneBook.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.Web.Host\Startup\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:f5b86db7-dfda-4cc9-a008-96f09f57289a
+Error Number:4060,State:1,Class:11
+DEBUG 2020-10-13 23:10:01,002 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-13 23:10:01,030 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-13 23:10:01,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, SPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookWebCoreModule, SPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookApplicationModule, SPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookCoreModule, SPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,050 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-13 23:10:01,092 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:01,092 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:01,092 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:01,092 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:01,293 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:01,576 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-13 23:10:01,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-13 23:10:01,710 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-13 23:10:01,729 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-10-13 23:10:01,752 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-13 23:10:01,778 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2020-10-13 23:10:01,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-10-13 23:10:01,810 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-10-13 23:10:01,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2020-10-13 23:10:01,814 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-13 23:10:01,814 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2020-10-13 23:10:20,862 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-13 23:10:20,891 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-13 23:10:20,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, SPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookWebCoreModule, SPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookApplicationModule, SPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookCoreModule, SPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:20,911 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-13 23:10:20,952 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:20,952 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:20,952 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:20,952 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:10:21,154 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:10:21,443 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-13 23:10:21,543 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-13 23:10:21,579 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-13 23:10:21,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-10-13 23:10:21,622 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-13 23:10:21,649 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2020-10-13 23:10:21,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-10-13 23:10:21,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-13 23:10:21,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-13 23:10:21,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2020-10-13 23:11:01,826 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-13 23:11:01,917 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-13 23:11:01,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, SPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookWebCoreModule, SPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookApplicationModule, SPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.PhoneBookCoreModule, SPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:01,939 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-13 23:11:02,018 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:11:02,018 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:11:02,019 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:11:02,019 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-13 23:11:02,310 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, SPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-13 23:11:03,091 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-13 23:11:03,195 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-13 23:11:03,235 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-13 23:11:03,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2020-10-13 23:11:03,281 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-13 23:11:03,440 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2020-10-13 23:11:03,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-10-13 23:11:03,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2020-10-13 23:11:03,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2020-10-13 23:11:03,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-13 23:11:03,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+INFO  2020-10-13 23:11:07,148 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/  
+INFO  2020-10-13 23:11:07,148 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:51947/  0
+INFO  2020-10-13 23:11:07,220 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.7961ms 200 
+INFO  2020-10-13 23:11:11,194 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (SPACore.PhoneBook.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2020-10-13 23:11:11,400 [6    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-13 23:11:11,413 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (SPACore.PhoneBook.Web.Host) in 1041.3496ms
+INFO  2020-10-13 23:11:11,430 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4294.7784ms 302 
+INFO  2020-10-13 23:11:11,436 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger  
+INFO  2020-10-13 23:11:11,447 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.9396ms 301 
+INFO  2020-10-13 23:11:11,452 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/  
+INFO  2020-10-13 23:11:11,467 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,488 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.1349ms 200 text/html
+INFO  2020-10-13 23:11:11,528 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/typography.css  
+INFO  2020-10-13 23:11:11,531 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/reset.css  
+INFO  2020-10-13 23:11:11,536 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/screen.css  
+INFO  2020-10-13 23:11:11,545 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/object-assign-pollyfill.js  
+INFO  2020-10-13 23:11:11,546 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery-1.8.0.min.js  
+INFO  2020-10-13 23:11:11,548 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery.slideto.min.js  
+INFO  2020-10-13 23:11:11,550 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,556 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,558 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 29.7173ms 200 text/css
+INFO  2020-10-13 23:11:11,561 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,564 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery.wiggle.min.js  
+INFO  2020-10-13 23:11:11,565 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.567ms 200 application/javascript
+INFO  2020-10-13 23:11:11,567 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,570 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.0884ms 200 text/css
+INFO  2020-10-13 23:11:11,573 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/handlebars-4.0.5.js  
+INFO  2020-10-13 23:11:11,575 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,579 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.3409ms 200 application/javascript
+INFO  2020-10-13 23:11:11,581 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2020-10-13 23:11:11,583 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,606 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/lodash.min.js  
+INFO  2020-10-13 23:11:11,614 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,631 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,645 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,651 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.1916ms 200 application/javascript
+INFO  2020-10-13 23:11:11,654 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.5798ms 200 application/javascript
+INFO  2020-10-13 23:11:11,657 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/backbone-min.js  
+INFO  2020-10-13 23:11:11,660 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,663 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,667 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.4075ms 200 application/javascript
+INFO  2020-10-13 23:11:11,673 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.9752ms 200 application/javascript
+INFO  2020-10-13 23:11:11,675 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.8413ms 200 application/javascript
+INFO  2020-10-13 23:11:11,677 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/swagger-ui.min.js  
+INFO  2020-10-13 23:11:11,679 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/swagger-oauth.js  
+INFO  2020-10-13 23:11:11,681 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jsoneditor.min.js  
+INFO  2020-10-13 23:11:11,684 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 103.9238ms 200 text/css
+INFO  2020-10-13 23:11:11,689 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,693 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,697 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,699 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.0743ms 200 application/javascript
+INFO  2020-10-13 23:11:11,704 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2020-10-13 23:11:11,708 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2020-10-13 23:11:11,711 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 142.017ms 200 application/javascript
+INFO  2020-10-13 23:11:11,714 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,715 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/marked.js  
+INFO  2020-10-13 23:11:11,719 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.6152ms 200 application/javascript
+INFO  2020-10-13 23:11:11,724 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.9672ms 200 application/javascript
+INFO  2020-10-13 23:11:11,726 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.5387ms 200 application/javascript
+INFO  2020-10-13 23:11:11,728 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,730 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.2212ms 200 application/javascript
+INFO  2020-10-13 23:11:11,732 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,735 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1983ms 200 application/javascript
+INFO  2020-10-13 23:11:11,755 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/images/logo_small.png  
+INFO  2020-10-13 23:11:11,759 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,761 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/print.css  
+INFO  2020-10-13 23:11:11,763 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.8395ms 200 image/png
+INFO  2020-10-13 23:11:11,766 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,771 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.0441ms 200 text/css
+INFO  2020-10-13 23:11:11,814 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/v1/swagger.json  
+INFO  2020-10-13 23:11:11,895 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/images/favicon-32x32.png  
+INFO  2020-10-13 23:11:11,897 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:11,903 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.2204ms 200 image/png
+INFO  2020-10-13 23:11:12,038 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 222.5588ms 200 application/json
+INFO  2020-10-13 23:11:12,220 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/ui/abp.js?_=1602601872215  
+INFO  2020-10-13 23:11:12,222 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/ui/on-complete.js?_=1602601872216  
+INFO  2020-10-13 23:11:12,226 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2020-10-13 23:11:12,228 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-10-13 23:11:12,243 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.5933ms 200 application/javascript
+INFO  2020-10-13 23:11:12,247 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.8501ms 200 application/javascript
+INFO  2020-10-13 23:11:26,124 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/  
+INFO  2020-10-13 23:11:26,152 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (SPACore.PhoneBook.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2020-10-13 23:11:26,183 [11   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-13 23:11:26,185 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (SPACore.PhoneBook.Web.Host) in 54.4203ms
+INFO  2020-10-13 23:11:26,191 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.8661ms 302 
+INFO  2020-10-13 23:11:26,195 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/  
+INFO  2020-10-13 23:11:26,204 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:26,210 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.1995ms 200 text/html
+INFO  2020-10-13 23:11:26,242 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/object-assign-pollyfill.js  
+INFO  2020-10-13 23:11:26,243 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/screen.css  
+INFO  2020-10-13 23:11:26,245 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/typography.css  
+INFO  2020-10-13 23:11:26,247 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery-1.8.0.min.js  
+INFO  2020-10-13 23:11:26,249 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery.slideto.min.js  
+INFO  2020-10-13 23:11:26,253 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/reset.css  
+INFO  2020-10-13 23:11:26,254 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2020-10-13 23:11:26,256 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2020-10-13 23:11:26,258 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2020-10-13 23:11:26,259 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2020-10-13 23:11:26,261 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2020-10-13 23:11:26,262 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2020-10-13 23:11:26,264 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.5664ms 304 application/javascript
+INFO  2020-10-13 23:11:26,275 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.0906ms 304 text/css
+INFO  2020-10-13 23:11:26,277 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.5171ms 304 text/css
+INFO  2020-10-13 23:11:26,278 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery.wiggle.min.js  
+INFO  2020-10-13 23:11:26,281 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/swagger-ui.min.js  
+INFO  2020-10-13 23:11:26,282 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/backbone-min.js  
+INFO  2020-10-13 23:11:26,285 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.0827ms 304 application/javascript
+INFO  2020-10-13 23:11:26,288 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.3752ms 304 application/javascript
+INFO  2020-10-13 23:11:26,289 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2020-10-13 23:11:26,291 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2020-10-13 23:11:26,293 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2020-10-13 23:11:26,297 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.0158ms 304 application/javascript
+INFO  2020-10-13 23:11:26,302 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.8189ms 304 application/javascript
+INFO  2020-10-13 23:11:26,304 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.3515ms 304 application/javascript
+INFO  2020-10-13 23:11:26,306 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2020-10-13 23:11:26,308 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2020-10-13 23:11:26,309 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jsoneditor.min.js  
+INFO  2020-10-13 23:11:26,311 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/lodash.min.js  
+INFO  2020-10-13 23:11:26,312 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2020-10-13 23:11:26,314 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.0336ms 304 text/css
+INFO  2020-10-13 23:11:26,315 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2020-10-13 23:11:26,317 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2020-10-13 23:11:26,322 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2020-10-13 23:11:26,326 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.0097ms 304 application/javascript
+INFO  2020-10-13 23:11:26,328 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.9223ms 304 application/javascript
+INFO  2020-10-13 23:11:26,329 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/swagger-oauth.js  
+INFO  2020-10-13 23:11:26,330 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.0049ms 304 application/javascript
+INFO  2020-10-13 23:11:26,332 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2020-10-13 23:11:26,333 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/marked.js  
+INFO  2020-10-13 23:11:26,338 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.3413ms 304 application/javascript
+INFO  2020-10-13 23:11:26,339 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2020-10-13 23:11:26,341 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2020-10-13 23:11:26,343 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2020-10-13 23:11:26,347 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7719ms 304 application/javascript
+INFO  2020-10-13 23:11:26,349 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.5345ms 304 application/javascript
+INFO  2020-10-13 23:11:26,352 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.9975ms 304 application/javascript
+INFO  2020-10-13 23:11:26,353 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/lib/handlebars-4.0.5.js  
+INFO  2020-10-13 23:11:26,355 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/images/logo_small.png  
+INFO  2020-10-13 23:11:26,358 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2020-10-13 23:11:26,359 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2020-10-13 23:11:26,364 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.8677ms 304 application/javascript
+INFO  2020-10-13 23:11:26,366 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.5493ms 304 image/png
+INFO  2020-10-13 23:11:26,370 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/css/print.css  
+INFO  2020-10-13 23:11:26,373 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2020-10-13 23:11:26,379 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.0939ms 304 text/css
+INFO  2020-10-13 23:11:26,456 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/v1/swagger.json  
+INFO  2020-10-13 23:11:26,466 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.3397ms 200 application/json
+INFO  2020-10-13 23:11:26,657 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/ui/abp.js?_=1602601886647  
+INFO  2020-10-13 23:11:26,662 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/ui/on-complete.js?_=1602601886648  
+INFO  2020-10-13 23:11:26,663 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-10-13 23:11:26,665 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\明源\SPA.PhoneBook-0.1.0\SPA.PhoneBook-0.1.0\src\aspnet-core\src\SPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2020-10-13 23:11:26,672 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7316ms 200 application/javascript
+INFO  2020-10-13 23:11:26,674 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7477ms 200 application/javascript
+INFO  2020-10-13 23:11:35,272 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:51947/swagger/images/explorer_icons.png  
+INFO  2020-10-13 23:11:35,275 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2020-10-13 23:11:35,278 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.1436ms 200 image/png
